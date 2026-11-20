@@ -1,0 +1,52 @@
+.form-page {
+  width: min(680px, 92%);
+  margin: 38px auto;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.form-card {
+  background: #fff;
+  border: 1px solid #e7ebf3;
+  border-radius: 18px;
+  padding: 32px;
+  box-shadow: 0 12px 35px #18264b09;
+}
+
+.form-card h1 {
+  font-size: 27px;
+}
+
+.form-card .muted {
+  font-size: 13px;
+  margin: 4px 0 20px;
+}
+
+.form-card textarea {
+  resize: vertical;
+}
+
+.form-card .btn {
+  margin-top: 18px;
+}
+
+.preview {
+  display: block;
+  width: 100%;
+  max-height: 240px;
+  object-fit: contain;
+  background: #f2f4fa;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+@media (max-width: 520px) {
+  .form-card {
+    padding: 22px;
+  }
+}

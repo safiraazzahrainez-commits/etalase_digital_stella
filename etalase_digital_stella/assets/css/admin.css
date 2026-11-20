@@ -1,0 +1,102 @@
+/* Styling Utama Halaman Admin */
+.admin-wrap {
+    padding-top: 42px;
+    padding-bottom: 60px;
+}
+
+.admin-wrap h1 {
+    font-size: 30px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.stat, 
+.admin-card {
+    background: #fff;
+    border: 1px solid #e7ebf3;
+    border-radius: 14px;
+    padding: 22px;
+}
+
+.stat span {
+    display: block;
+    color: #788396;
+    font-size: 13px;
+}
+
+.stat strong {
+    font-size: 30px;
+    color: #4169e1;
+}
+
+.admin-card {
+    margin: 22px 0;
+}
+
+.admin-card h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.admin-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.admin-form input {
+    flex: 1;
+    min-width: 170px;
+    padding: 11px;
+    border: 1px solid #dfe7ef;
+    border-radius: 8px;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, 
+.table td {
+    text-align: left;
+    padding: 13px;
+    border-bottom: 1px solid #edf1ff;
+}
+
+.table th {
+    background: #f7f8fc;
+    color: #56627b;
+}
+
+.role-pill {
+    font-size: 11px;
+    padding: 5px 8px;
+    background: #edf1ff;
+    border-radius: 20px;
+}
+
+.admin-card .btn {
+    font-size: 11px;
+    padding: 7px 10px;
+}
+
+/* Responsif untuk Layar Kecil (Mobile) */
+@media (max-width: 650px) {
+    .stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .admin-form {
+        flex-direction: column;
+    }
+}

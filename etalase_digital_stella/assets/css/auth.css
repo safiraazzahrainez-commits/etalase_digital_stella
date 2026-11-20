@@ -1,0 +1,76 @@
+/* Styling Halaman Autentikasi (Login/Register) */
+.auth-wrapper {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: linear-gradient(135deg, #e9efff, #f8f9ff);
+}
+
+.auth-card {
+    width: min(410px, 100%);
+    background: #fff;
+    padding: 38px;
+    border-radius: 14px;
+    box-shadow: 0 20px 60px #273b7418;
+}
+
+.auth-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 22px;
+    color: #18264b;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.auth-brand img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+}
+
+.auth-card h1 {
+    font-size: 25px;
+}
+
+.auth-card .muted {
+    font-size: 13px;
+    margin: 4px 0 22px;
+}
+
+.auth-card label,
+.form-card label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 13px 0 6px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px 13px;
+    border: 1px solid #dfe4ee;
+    border-radius: 9px;
+    background: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: #4169e1;
+    box-shadow: 0 0 3px #4169e11a;
+}
+
+.auth-card .btn {
+    margin-top: 12px;
+    width: 100%;
+}
+
+.auth-foot {
+    text-align: center;
+    font-size: 12px;
+    color: #78839b;
+    margin-top: 22px;
+}
